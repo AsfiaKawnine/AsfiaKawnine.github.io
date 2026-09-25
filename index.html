@@ -1,66 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Asfia Kawnine — Applied AI / Machine Learning Engineer.">
-<title>Asfia Kawnine | Applied AI / Machine Learning Engineer</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asfia Kawnine — Applied AI / Machine Learning Engineer</title>
+<meta name="description" content="Asfia Kawnine — Applied AI / Machine Learning Engineer specializing in Generative AI, RAG, and federated learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header><div class="wrap nav">
-<a class="brand" href="#top">Asfia Kawnine</a>
-<nav aria-label="Primary"><a href="#about">About</a><a href="#work">Work</a><a href="#research">Research</a><a href="#experience">Experience</a><a href="#contact">Contact</a></nav>
-</div></header>
-<main id="top">
-<section class="hero"><div class="wrap">
-<p class="eyebrow">Applied AI / Machine Learning Engineer</p>
-<h1>Building intelligent systems from research to production.</h1>
-<p class="lead">I work across machine learning research, production software, and modern GenAI/RAG systems—turning ideas into useful, deployable applications.</p>
-<div class="actions"><a class="button primary" href="#work">View selected work</a><a class="button" href="#contact">Get in touch</a></div>
-</div></section>
 
-<section id="about" class="section"><div class="wrap grid">
-<div><p class="eyebrow">About</p><h2>Research-minded engineering with a production focus.</h2></div>
-<div><p>I work at the intersection of machine learning research and software engineering, with experience taking AI ideas from experimentation through implementation and deployment.</p>
-<p>My background spans federated learning, spatio-temporal modeling, predictive analytics, conversational AI, and GenAI/RAG applications.</p></div>
-</div></section>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <span class="mark">AK</span>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#research">Research</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-<section id="work" class="section alt"><div class="wrap">
-<p class="eyebrow">Selected work</p><h2>Applied systems across AI and software.</h2>
-<div class="cards">
-<article><span>GenAI / RAG</span><h3>Enterprise AI Assistant</h3><p>Retrieval-augmented document understanding and contextual question answering using parsing, chunking, embeddings, retrieval, and LLM workflows.</p></article>
-<article><span>Federated Learning</span><h3>FedGL-ST</h3><p>Research on federated graph and spatio-temporal learning for distributed energy prediction.</p></article>
-<article><span>ML Engineering</span><h3>Production ML Pipeline</h3><p>Machine-learning workflows spanning model development, real-time prediction, model conversion, and production software integration.</p></article>
-<article><span>ML / Analytics</span><h3>Revenue Forecasting</h3><p>Forecasting and analytics workflows supporting prediction, reporting, and decision-making.</p></article>
-</div></div></section>
+<main>
 
-<section id="research" class="section"><div class="wrap grid">
-<div><p class="eyebrow">Research</p><h2>Machine learning research grounded in real systems.</h2></div>
-<div><p>Research interests include federated learning, spatio-temporal machine learning, edge AI, and deep learning.</p>
-<ul><li>Federated learning and distributed intelligence</li><li>Spatio-temporal prediction</li><li>Graph neural networks and sequence models</li><li>Applied AI for real-world environments</li></ul></div>
-</div></section>
+  <section class="hero wrap">
+    <p class="eyebrow">Toronto, ON — Applied AI / Machine Learning Engineer</p>
+    <h1>Building AI systems that leave the lab and enter production.</h1>
+    <p class="hero-lede">I work across generative AI, federated learning, and applied machine learning — currently building enterprise RAG pipelines and LLM-driven knowledge retrieval at the Vector Institute. Prior work spans conversational AI, biometric verification, and predictive analytics for banking and energy clients.</p>
+    <div class="hero-links">
+      <a class="btn" href="#work">See selected work</a>
+      <a class="btn-ghost" href="#contact">Get in touch</a>
+    </div>
+    <dl class="stat-row">
+      <div><dt>7+</dt><dd>peer-reviewed publications</dd></div>
+      <div><dt>5+ yrs</dt><dd>industry &amp; research</dd></div>
+      <div><dt>3</dt><dd>countries worked in</dd></div>
+    </dl>
+  </section>
 
-<section id="experience" class="section alt"><div class="wrap">
-<p class="eyebrow">Experience</p><h2>Selected professional experience.</h2>
-<div class="timeline">
-<p><strong>Machine Learning Associate</strong><br>Vector Institute / Forged · Toronto, Canada · Aug 2026 – Dec 2026</p>
-<p><strong>AI Specialist Intern</strong><br>C-Therm Technologies · Fredericton, Canada · Jun 2025 – Feb 2026</p>
-<p><strong>Research Assistant</strong><br>AELab, University of New Brunswick · Fredericton, Canada · Jan 2023 – Apr 2025</p>
-<p><strong>Data Scientist</strong><br>BE Data Solutions · Remote · Jul 2022 – Nov 2022</p>
-<p><strong>Software Engineer (AI)</strong><br>LEADS Corporation · Dhaka, Bangladesh · Dec 2019 – Jul 2022</p>
-</div></div></section>
+  <section id="work" class="section wrap">
+    <h2>Selected work</h2>
+    <div class="work-grid">
+      <article class="work-item">
+        <p class="work-tag">GenAI / RAG</p>
+        <h3>Enterprise AI Assistant</h3>
+        <p>Retrieval-augmented document understanding and contextual Q&amp;A — parsing, chunking, embedding, retrieval, and LLM workflows integrated into an existing enterprise platform.</p>
+        <p class="work-meta">Vector Institute × Forged</p>
+      </article>
+      <article class="work-item">
+        <p class="work-tag">Federated Learning</p>
+        <h3>FedGL-ST</h3>
+        <p>GCN–LSTM federated learning framework for spatio-temporal energy prediction. Up to 15% MSE reduction over baseline FL models.</p>
+        <p class="work-meta">AELab, UNB</p>
+      </article>
+      <article class="work-item">
+        <p class="work-tag">ML Engineering</p>
+        <h3>Thermal Data Pipelines</h3>
+        <p>Automated ELT pipelines and anomaly detection frameworks for large-scale industrial thermal datasets, with cross-language (C#/C/Python) backend components.</p>
+        <p class="work-meta">C-Therm Technologies</p>
+      </article>
+      <article class="work-item">
+        <p class="work-tag">ML / Analytics</p>
+        <h3>Revenue Forecasting</h3>
+        <p>Time-series forecasting pipelines and Power BI/Tableau dashboards, improving forecast accuracy by over 20% for client planning decisions.</p>
+        <p class="work-meta">Be Data Solutions</p>
+      </article>
+    </div>
+  </section>
 
-<section class="section"><div class="wrap grid">
-<div><p class="eyebrow">Education</p><h2>Computer science, research, and applied AI.</h2></div>
-<div><p><strong>MSc, Computer Science</strong><br>University of New Brunswick</p><p><strong>BSc, Computer Science &amp; Engineering</strong><br>International Islamic University Chittagong</p></div>
-</div></section>
+  <section id="experience" class="section wrap">
+    <h2>Experience</h2>
+    <ol class="timeline">
+      <li>
+        <div class="timeline-when">Aug 2026 – Dec 2026</div>
+        <div class="timeline-what">
+          <h3>Machine Learning Associate</h3>
+          <p class="role-org">Vector Institute · Toronto, ON</p>
+          <p>Designing RAG pipelines and LLM-powered contextual question answering for an enterprise knowledge base, in collaboration with startup partner Forged.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-when">Jun 2025 – Feb 2026</div>
+        <div class="timeline-what">
+          <h3>AI Specialist Intern</h3>
+          <p class="role-org">C-Therm Technologies · Fredericton, NB</p>
+          <p>Built automated data ingestion/ELT pipelines and anomaly detection frameworks for large-scale thermal datasets.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-when">Jan 2023 – Apr 2025</div>
+        <div class="timeline-what">
+          <h3>Research Assistant</h3>
+          <p class="role-org">AELab, University of New Brunswick · Fredericton, NB</p>
+          <p>Led federated learning research — multi-tier spatial encoding and multi-global-server architectures — with NB Power and other real-world data partners.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-when">Jul 2022 – Nov 2022</div>
+        <div class="timeline-what">
+          <h3>Data Scientist</h3>
+          <p class="role-org">Be Data Solutions · Remote</p>
+          <p>Built revenue prediction models and interactive dashboards for client portfolio performance monitoring.</p>
+        </div>
+      </li>
+      <li>
+        <div class="timeline-when">Dec 2019 – Jul 2022</div>
+        <div class="timeline-what">
+          <h3>Software Engineer (AI)</h3>
+          <p class="role-org">LEADS Corporation Limited · Dhaka, Bangladesh</p>
+          <p>Shipped a conversational AI chatbot, an eKYC facial verification system, and an NLP-driven recruitment platform for banking and enterprise clients.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
 
-<section id="contact" class="section contact"><div class="wrap">
-<p class="eyebrow">Contact</p><h2>Let’s build useful AI systems.</h2>
-<p>For opportunities, technical collaboration, or research discussions:</p>
-<p><a href="https://www.linkedin.com/in/asfia-kawnine/">LinkedIn</a> · <a href="https://github.com/AsfiaKawnine">GitHub</a></p>
-</div></section>
+  <section id="research" class="section wrap">
+    <h2>Research</h2>
+    <p class="section-lede">My research centers on federated learning, spatio-temporal modeling, and edge AI — grounded in real-world energy and infrastructure data.</p>
+    <ul class="pub-list">
+      <li><span class="pub-title">Encoded Spatial Attribute in Multi-Tier Federated Learning</span><span class="pub-venue">IEEE ICCE, 2025</span></li>
+      <li><span class="pub-title">An Adaptive Indoor Localization Approach Using WiFi RSSI Fingerprinting with SLAM-Enabled Robotic Platform and Deep Neural Networks</span><span class="pub-venue">CASCON, 2024</span></li>
+      <li><span class="pub-title">Evaluating Multi-Global Server Architecture for Federated Learning</span><span class="pub-venue">IEEE ICCE, 2024</span></li>
+      <li><span class="pub-title">ECAvg: An Edge-Cloud Collaborative Learning Approach using Averaged Weights</span><span class="pub-venue">IEEE ICCE, 2024</span></li>
+      <li><span class="pub-title">Achieving Pareto Optimality using Efficient Parameter Reduction for DNNs in Resource-Constrained Edge Environments</span><span class="pub-venue">CoRR, 2024</span></li>
+      <li><span class="pub-title">Developing a Resource-Constraint EdgeAI model for Surface Defect Detection</span><span class="pub-venue">CoRR, 2024</span></li>
+      <li><span class="pub-title">An Approach to Assess Air Quality using Deep Learning with BRB</span><span class="pub-venue">AICCC, 2021</span></li>
+    </ul>
+    <p class="pub-more">7+ publications total — full list with co-authors on <a href="https://scholar.google.com/citations?user=l04zfosAAAAJ&hl=en">Google Scholar</a>.</p>
+  </section>
+
+  <section class="section wrap education-section">
+    <h2>Education</h2>
+    <div class="edu-row">
+      <div>
+        <h3>MSc, Computer Science</h3>
+        <p class="role-org">University of New Brunswick · Fredericton, NB</p>
+      </div>
+      <div class="edu-date">Apr 2025</div>
+    </div>
+    <div class="edu-row">
+      <div>
+        <h3>BSc, Computer Science &amp; Engineering</h3>
+        <p class="role-org">International Islamic University Chittagong</p>
+      </div>
+      <div class="edu-date">Dec 2019</div>
+    </div>
+  </section>
+
+  <section id="contact" class="section wrap contact-section">
+    <h2>Let's build useful AI systems.</h2>
+    <p>For opportunities, technical collaboration, or research discussions:</p>
+    <div class="contact-links">
+      <a href="mailto:asfi.kawnine@gmail.com">asfi.kawnine@gmail.com</a>
+      <a href="https://www.linkedin.com/in/asfia-kawnine/">LinkedIn</a>
+      <a href="https://github.com/AsfiaKawnine">GitHub</a>
+      <a href="https://scholar.google.com/citations?user=l04zfosAAAAJ&hl=en">Google Scholar</a>
+    </div>
+  </section>
+
 </main>
-<footer><div class="wrap">© 2026 Asfia Kawnine</div></footer>
-</body></html>
+
+<footer class="site-footer wrap">
+  <span>© 2026 Asfia Kawnine</span>
+</footer>
+
+</body>
+</html>
